@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  background-color: yellow;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.authForm{
+  margin: 90px 500px 0 500px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background: yellowgreen;
+  padding-bottom: 50px;
+  height: 78vh;
+  position: relative;
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0
+}
+.formImg{
+  margin-top: -50px;
+  border: 4px solid red;
+}
+.formInput{
+  width: 400px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 20px;
+}
+.formBtn{
+  font-size: 17px;
+  font-weight: bolder;
+  height: 40px;
+}
+
+.resetBtn{
+  font-size: 17px;
+  font-weight: bolder;
+  height: 40px;
+}
+::placeholder{
+  font-family: Sofia, cursive;
+  font-size: 20px
+}
+.message{
+  display: inline-block;
+  width: 100vw;
+  color: red;
+  background-color: lightgray;
+}
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
